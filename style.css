@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Doto:wght@100..900&family=Geist+Mono:wght@100..900&family=Jaro:opsz@6..72&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yuji+Mai&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.big-container{
+    padding: 20px;
+}
+p{
+    line-height: 2;
+}
+.form{
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin-top: 100px;
+    width: 50%;
+}
+.image img{
+    border-radius: 50%;
+    margin-right: 0px;
+}
+.heading{
+    text-align: center;
+}
+.heading h1{
+    color: red;
+    font-size: 70px;
+     font-family: jaro;
+}
+.heading h3{
+    color: blue;
+    font-size: 40px;
+     font-family: jaro;
+}
+.information p{
+    line-height: 2px;
+}
+button{
+    margin:12px;
+    text-align: center;
+    border-radius: 10%;
+    border: 2px solid gray;
+    padding: 8px;
+}
+button a{
+    text-decoration: none;
+}
+.button a:hover{
+opacity: 0.4;
+cursor: pointer;
+}
+.js{
+    border-radius: 5%;
+    margin-bottom: 12px;
+}
