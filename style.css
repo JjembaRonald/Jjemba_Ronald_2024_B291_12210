@@ -14,6 +14,10 @@ body{
 .big-container{
     padding: 20px;
 }
+.content{
+    align-items: center;
+    justify-content: center;
+}
 p{
     line-height: 2;
 }
@@ -27,6 +31,15 @@ p{
 .image img{
     border-radius: 50%;
     margin-right: 0px;
+}
+
+.image2 img{
+    display: none;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    /* margin-right: 0px; */
 }
 .heading{
     text-align: center;
@@ -45,20 +58,46 @@ p{
     line-height: 2px;
 }
 button{
-    margin:12px;
-    text-align: center;
-    border-radius: 10%;
-    border: 2px solid gray;
-    padding: 8px;
+  margin: 12px;
+  padding: 10px 24px;      
+  font-size: 16px;          
+  font-weight: bold;        
+  text-align: center;
+  
+  border-radius: 12px;       
+  border: 1px solid #ccc;  
+  background-color: #fff;  
+  color: #333;             
+  
+  cursor: pointer;          
+  transition: all 0.2s ease;
 }
 button a{
     text-decoration: none;
 }
 .button a:hover{
-opacity: 0.4;
-cursor: pointer;
+    opacity: 0.4;
+    cursor: pointer;
 }
 .js{
-    border-radius: 5%;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 50px;
     margin-bottom: 12px;
+}
+.lists{
+    display: none;
+}
+.in{
+    color: red;
+    font-family: jaro;
+    size: 20px;
+}
+.about{
+    text-align: center;
+    padding: 10px;
+    margin: 20px 50px 20px 10px;
+    width: 200px;
+    height: 50px;
 }
